@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>BG3 Builds</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="Top">Best Baldur's gate 3 builds</h1>
+      <hr />
+    </header>
+
+    <h1 id="Tytuł">List of builds</h1>
+    <main>
+      <div id="Buildy">
+        <div class="Klasy">
+          <button type="button" class="collapsible">Barbarian</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Bard</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Cleric</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Druid</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Fighter</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Monk</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Paladin</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Ranger</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+
+        <div class="Klasy">
+          <button type="button" class="collapsible">Rogue</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+        <div class="Klasy">
+          <button type="button" class="collapsible">Sorcerer</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+        <div class="Klasy">
+          <button type="button" class="collapsible">Warlock</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+        <div class="Klasy">
+          <button type="button" class="collapsible">Wizard</button>
+          <div class="content">
+            <p>Support</p>
+            <p>DPS</p>
+            <p>Tank</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </main>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
