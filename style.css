@@ -1,0 +1,65 @@
+head {
+  font-size: 30px;
+  text-align: center;
+}
+
+#Top {
+  text-align: center;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+body {
+  background-image: url(background.jpg);
+  object-fit: fill;
+}
+
+#Tytuł {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+#Buildy {
+  padding: 20px;
+  float: left;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+.Klasy {
+  font-size: 30px;
+  width: 210px;
+  height: 250px;
+  text-align: center;
+  float: left;
+  padding-left: 10px;
+}
+
+.collapsible {
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-style: ridge;
+  border-color: black;
+}
+.active,
+.collapsible:hover {
+}
+.content {
+  display: none;
+  overflow: hidden;
+  font-size: 25px;
+  font-weight: bold;
+  border-style: groove;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: lightgray;
+}
